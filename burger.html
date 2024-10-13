@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <link rel="stylesheet" href="burger.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <span>Front-end</span>
+                <span>Burger</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Figma</li>
+                    <li>GitHub</li>
+                    <li>Google Fonts</li>
+                    <li>Icomoon</li>
+                    <li>Validator</li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+        </header>
+    </div>
+    <footer style="text-align: center; padding: 10px 0;">
+    </footer>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+</body>
+
+</html>
