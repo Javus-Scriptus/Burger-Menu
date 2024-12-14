@@ -166,6 +166,8 @@ nav ul li a:hover {
   }
 }
 
+/* icons */
+
 .vs::before {
   content: '';
   width: 17px;
